@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    position: relative;
+}
+#ancestor {
+    width:600px;
+    height:600px;
+    background-color: rgb(255, 255, 0);
+    margin:auto;
+    position:relative;
+}
+#child {
+    width:60px;
+    height:60px;
+    background-color: rgb(255, 0, 0);
+    position:absolute;
+}
+button {
+    width:140px;
+    margin-left:calc(50% - 70px) ;
+    margin-top:10px;
+}
